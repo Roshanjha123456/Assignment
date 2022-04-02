@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    margin: 5rem;
+    display: grid;
+    grid-template-columns: 70% auto;
+
+
+}
+#images{
+    /* width: 900px;
+    height: 300px; */
+
+    width: 100% ;
+    
+}
+.search{
+    border: 1px solid black;
+    background-color: aqua;
+    padding: 1rem;
+    margin: 1rem;
+   
+
+     
+}
+#para{
+    max-width:100%;
+}
+.page{
+    display: flex;
+    padding: 1rem;
+}
+#image{
+    height: 20px;
+    width: 20px;
+}
+.new{
+   
+}
+input{
+    width: 100%;
+    padding: 0.5rem;
+}
+.two{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: aqua;
+    
+}
+.sow{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1rem;
+    grid-column-gap: 2rem;
+}
+.three{
+    background-color: aqua;
+    border: 1px solid beige;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+  
+.container{
+    margin: 1.5rem;
+    display: grid;
+    grid-template-columns:auto;
+
+
+}
+}
+  
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .container{
+        margin: 1.5rem;
+        display: grid;
+        grid-template-columns:auto;
+    
+    
+    }
+    
+ .name{
+     display: grid;
+     grid-template-columns: auto auto;
+ }
+}
+
+   
+   
